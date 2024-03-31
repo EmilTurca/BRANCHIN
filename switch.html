@@ -1,0 +1,40 @@
+<script>
+    let sunday = parseInt(prompt("With what day start your calender?"))
+    let monday = parseInt(prompt("Day of the week?"))
+    switch(sunday) {
+        case 1: document.write("Su"); break
+        case 2: document.write("Tu"); break
+        case 3: document.write("Wd"); break
+        case 4: document.write("Th"); break
+        case 5:
+            times = 3
+            while (times > 0) {
+                document.write("Yeeey!!! :)")
+                times--
+            }
+            document.write("Fr");
+            break
+        case 6: document.write("Sa"); break
+        case 7: document.write("Mo"); break
+
+        default: document.write("Are you drank? :D"); break
+    }
+    switch(monday) {
+        case 1: document.write("Mo"); break
+        case 2: document.write("Tu"); break
+        case 3: document.write("Wd"); break
+        case 4: document.write("Th"); break
+        case 5:
+            times = 3
+            while (times > 0) {
+                document.write("Yeeey!!! :)")
+                times--
+            }
+            document.write("Fr");
+            break
+        case 6: document.write("Sa"); break
+        case 7: document.write("Su"); break
+
+        default: document.write("Are you drank? :D"); break
+    }
+</script>
